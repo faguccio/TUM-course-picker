@@ -1,0 +1,115 @@
+{
+  "areas": [
+    {
+      "name": "Algorithms (ALG)",
+      "courses": [
+        {
+          "url": "https://campus.tum.de/tumonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/950696698",
+          "etcs": 8
+        }
+      ]
+    },
+    { "name": "Computer Graphics and Vision (CGV)", "courses": [] },
+    {
+      "name": "Databases and Information Systems (DBI)",
+      "courses": [
+        {
+          "url": "https://campus.tum.de/tumonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/950699843",
+          "etcs": 5
+        }
+      ]
+    },
+    { "name": "Digital Biology and Digital Medicine (DBM)", "courses": [] },
+    {
+      "name": "Engineering Software-intensive Systems (SE)",
+      "courses": [
+        {
+          "url": "https://campus.tum.de/tumonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/950696842",
+          "etcs": 3
+        },
+        {
+          "url": "https://campus.tum.de/tumonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/950701783",
+          "etcs": 4
+        }
+      ]
+    },
+    {
+      "name": "Formal Methods and their Applications (FMA)",
+      "courses": [
+        {
+          "url": "https://campus.tum.de/tumonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/950698592",
+          "etcs": 5,
+          "theo": true
+        },
+        {
+          "url": "https://campus.tum.de/tumonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/950696572",
+          "etcs": 8,
+          "theo": true
+        },
+        {
+          "url": "https://campus.tum.de/tumonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/950701633",
+          "etcs": 6,
+          "theo": true
+        },
+        {
+          "url": "https://campus.tum.de/tumonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/950695880?",
+          "etcs": 8
+        }
+      ]
+    },
+    {
+      "name": "Machine Learning and Analytics (MLA)",
+      "courses": [
+        {
+          "url": "https://campus.tum.de/tumonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/950724536",
+          "etcs": 8,
+          "theo": true
+        },
+        {
+          "url": "https://campus.tum.de/tumonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/950696664",
+          "etcs": 3
+        },
+        {
+          "url": "https://campus.tum.de/tumonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/950700567",
+          "etcs": 6
+        }
+      ]
+    },
+    {
+      "name": "Computer Architecture, Computer Networks and Distributed Systems (RRV)",
+      "courses": [
+        {
+          "url": "https://campus.tum.de/tumonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/950696802?$ctx=design=ca2;header=max;lang=en",
+          "etcs": 5
+        },
+        {
+          "url": "https://campus.tum.de/tumonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/950696640?$ctx=design=ca2;header=max;lang=en",
+          "etcs": 5
+        },
+        {
+          "url": "https://campus.tum.de/tumonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/950699756?$ctx=design=ca2;header=max;lang=en",
+          "etcs": 5
+        },
+        {
+          "url": "https://campus.tum.de/tumonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/950698270?$ctx=design=ca2;header=max;lang=en",
+          "etcs": 6,
+          "theo": true
+        }
+      ]
+    },
+    { "name": "Robotics (ROB)", "courses": [] },
+    {
+      "name": "Security and Privacy (SP)",
+      "courses": [
+        {
+          "url": "https://campus.tum.de/tumonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/950696736?$ctx=design=ca2;header=max;lang=en",
+          "etcs": 5
+        }
+      ]
+    },
+    {
+      "name": "Scientific Computing and High Performance Computing (HPC)",
+      "courses": []
+    }
+  ]
+}

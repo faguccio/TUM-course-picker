@@ -14,10 +14,16 @@ fetchData().then((data) => {
           const color =
             "#" +
             (0x1000000 + Math.random() * 0xffffff).toString(16).substr(1, 6);
+          course.active = !course.active;
           drawCalendar(course, color);
           modifyETCS(area.name, course.etcs, course.theo, course.active);
         });
     });
+  });
+
+  document.getElementById("save-button").addEventListener("click", () => {
+    console.log("SAVE");
+    saveText(JSON.stringify(data), "courses-info.json");
   });
 });
 
@@ -38,15 +44,13 @@ function genTimeTable(start, end) {
 }
 
 function drawCalendar(course, color) {
-  if (course.active) {
-    course.active = false;
+  if (!course.active) {
     const allNodes = document.getElementsByClassName(course.name);
     Array.from(allNodes).map((node) => {
       node.innerHTML = "";
     });
     return;
   }
-  course.active = true;
   course.appointments.map((app) => {
     const times = genTimeTable(app.start, app.end);
     // console.log(times);
@@ -89,4 +93,14 @@ function modifyETCS(area, etcs, theo, active) {
     const theoETCS = document.getElementById("theo");
     theoETCS.textContent = Number(theoETCS.textContent) + etcs * sign;
   }
+}
+
+function saveText(text, filename) {
+  var a = document.createElement("a");
+  a.setAttribute(
+    "href",
+    "data:text/plain;charset=utf-8," + encodeURIComponent(text)
+  );
+  a.setAttribute("download", filename);
+  a.click();
 }

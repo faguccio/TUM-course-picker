@@ -1,1 +1,368 @@
-[{"name":"Algorithms (ALG)","courseList":[{"name":"Efficient Algorithms and Data Structures (IN2003)","appointments":[{"day":"Friday","start":"10:00","end":"12:00","period":"from 20.10.2023 to 09.02.2024"},{"day":"Monday","start":"10:00","end":"12:00","period":"from 20.10.2023 to 09.02.2024"}],"etcs":8,"theo":false,"url":"https://campus.tum.de/tumonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/950696698","active":false}]},{"name":"Computer Graphics and Vision (CGV)","courseList":[]},{"name":"Databases and Information Systems (DBI)","courseList":[{"name":"Cloud-Based Data Processing (IN2386)","appointments":[{"day":"Thursday","start":"14:00","end":"17:00","period":"from 19.10.2023 to 08.02.2024"}],"etcs":5,"theo":false,"url":"https://campus.tum.de/tumonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/950699843","active":false}]},{"name":"Digital Biology and Digital Medicine (DBM)","courseList":[]},{"name":"Engineering Software-intensive Systems (SE)","courseList":[{"name":"IT-Consulting - IT-Consulting (IN2079)","appointments":[{"day":"Monday","start":"08:30","end":"12:00","period":"from 23.10.2023 to 29.01.2024"}],"etcs":3,"theo":false,"url":"https://campus.tum.de/tumonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/950696842","active":false},{"name":"Strategic IT Management (CIT4230000)","appointments":[{"day":"Monday","start":"12:00","end":"14:00","period":"from 23.10.2023 to 05.02.2024"}],"etcs":4,"theo":false,"url":"https://campus.tum.de/tumonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/950701783","active":false}]},{"name":"Formal Methods and their Applications (FMA)","courseList":[{"name":"Lambda Calculus (IN2358)","appointments":[{"day":"Monday","start":"16:15","end":"17:45","period":"from 23.10.2023 to 05.02.2024"}],"etcs":5,"theo":true,"url":"https://campus.tum.de/tumonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/950698592","active":false},{"name":"Semantics (IN2055)","appointments":[{"day":"Tuesday","start":"14:00","end":"16:00","period":"from 17.10.2023 to 06.02.2024"},{"day":"Thursday","start":"12:15","end":"13:45","period":"from 17.10.2023 to 06.02.2024"},{"day":"Monday","start":"08:30","end":"10:00","period":"from 17.10.2023 to 06.02.2024"}],"etcs":8,"theo":true,"url":"https://campus.tum.de/tumonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/950696572","active":false},{"name":"Advanced Concepts of Programming Languages (CIT3230000)","appointments":[{"day":"Wednesday","start":"12:00","end":"14:00","period":"from 18.10.2023 to 07.02.2024"}],"etcs":6,"theo":true,"url":"https://campus.tum.de/tumonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/950701633","active":false},{"name":"Program Optimization (IN2053)","appointments":[{"day":"Wednesday","start":"10:00","end":"12:00","period":"from 18.10.2023 to 07.02.2024"},{"day":"Wednesday","start":"14:00","end":"16:00","period":"from 18.10.2023 to 07.02.2024"},{"day":"Thursday","start":"10:00","end":"12:00","period":"from 18.10.2023 to 07.02.2024"},{"day":"Tuesday","start":"14:00","end":"16:00","period":"from 18.10.2023 to 07.02.2024"}],"etcs":8,"theo":false,"url":"https://campus.tum.de/tumonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/950695880?","active":false}]},{"name":"Machine Learning and Analytics (MLA)","courseList":[{"name":"Causality (IN2410)","appointments":[{"day":"Tuesday","start":"10:00","end":"12:00","period":"from 17.10.2023 to 06.02.2024"},{"day":"Thursday","start":"10:00","end":"12:00","period":"from 17.10.2023 to 06.02.2024"}],"etcs":8,"theo":true,"url":"https://campus.tum.de/tumonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/950724536","active":false},{"name":"Data Mining and Knowledge Discovery (IN2030)","appointments":[{"day":"Monday","start":"08:30","end":"10:00","period":"from 23.10.2023 to 05.02.2024"}],"etcs":3,"theo":false,"url":"https://campus.tum.de/tumonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/950696664","active":false},{"name":"Introduction to Deep Learning (IN2346)","appointments":[{"day":"Tuesday","start":"14:00","end":"16:00","period":"on 17.10.2023"},{"day":"Thursday","start":"10:00","end":"12:00","period":"on 17.10.2023"}],"etcs":6,"theo":false,"url":"https://campus.tum.de/tumonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/950700567","active":false}]},{"name":"Computer Architecture, Computer Networks and Distributed Systems (RRV)","courseList":[{"name":"Advanced Computer Networking (IN2097)","appointments":[{"day":"Thursday","start":"14:00","end":"16:00","period":"from 19.10.2023 to 08.02.2024"},{"day":"Tuesday","start":"16:00","end":"18:00","period":"from 19.10.2023 to 08.02.2024"}],"etcs":5,"theo":false,"url":"https://campus.tum.de/tumonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/950696802?$ctx=design=ca2;header=max;lang=en","active":false},{"name":"Advanced Computer Architecture (IN2076)","appointments":[{"day":"Tuesday","start":"12:30","end":"14:00","period":"from 17.10.2023 to 06.02.2024"},{"day":"Friday","start":"12:00","end":"14:00","period":"from 17.10.2023 to 06.02.2024"}],"etcs":5,"theo":false,"url":"https://campus.tum.de/tumonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/950696640?$ctx=design=ca2;header=max;lang=en","active":false},{"name":"HW","appointments":[{"day":"Wednesday","start":"13:15","end":"14:45","period":"from 18.10.2023 to 07.02.2024"},{"day":"Thursday","start":"08:30","end":"09:30","period":"from 18.10.2023 to 07.02.2024"}],"etcs":5,"theo":false,"url":"https://campus.tum.de/tumonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/950699756?$ctx=design=ca2;header=max;lang=en","active":false},{"name":"Network Coding (IN2315)","appointments":[{"day":"Tuesday","start":"10:00","end":"12:00","period":"from 17.10.2023 to 06.02.2024"},{"day":"Wednesday","start":"10:00","end":"12:00","period":"from 17.10.2023 to 06.02.2024"},{"day":"Wednesday","start":"12:00","end":"14:00","period":"from 17.10.2023 to 06.02.2024"}],"etcs":6,"theo":true,"url":"https://campus.tum.de/tumonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/950698270?$ctx=design=ca2;header=max;lang=en","active":false}]},{"name":"Robotics (ROB)","courseList":[]},{"name":"Security and Privacy (SP)","courseList":[{"name":"Network Security (IN2101)","appointments":[{"day":"Tuesday","start":"14:00","end":"16:00","period":"from 17.10.2023 to 06.02.2024"},{"day":"Monday","start":"12:00","end":"14:00","period":"from 17.10.2023 to 06.02.2024"}],"etcs":5,"theo":false,"url":"https://campus.tum.de/tumonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/950696736?$ctx=design=ca2;header=max;lang=en","active":false}]},{"name":"Scientific Computing and High Performance Computing (HPC)","courseList":[]}]
+[
+  {
+    "name": "Algorithms (ALG)",
+    "courseList": [
+      {
+        "name": "Efficient Algorithms and Data Structures (IN2003)",
+        "appointments": [
+          {
+            "day": "Friday",
+            "start": "10:00",
+            "end": "12:00",
+            "period": "from 20.10.2023 to 09.02.2024"
+          },
+          {
+            "day": "Monday",
+            "start": "10:00",
+            "end": "12:00",
+            "period": "from 20.10.2023 to 09.02.2024"
+          }
+        ],
+        "etcs": 8,
+        "theo": false,
+        "url": "https://campus.tum.de/tumonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/950696698",
+        "active": false
+      }
+    ]
+  },
+  { "name": "Computer Graphics and Vision (CGV)", "courseList": [] },
+  {
+    "name": "Databases and Information Systems (DBI)",
+    "courseList": [
+      {
+        "name": "Cloud-Based Data Processing (IN2386)",
+        "appointments": [
+          {
+            "day": "Thursday",
+            "start": "14:00",
+            "end": "17:00",
+            "period": "from 19.10.2023 to 08.02.2024"
+          }
+        ],
+        "etcs": 5,
+        "theo": false,
+        "url": "https://campus.tum.de/tumonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/950699843",
+        "active": false
+      }
+    ]
+  },
+  { "name": "Digital Biology and Digital Medicine (DBM)", "courseList": [] },
+  {
+    "name": "Engineering Software-intensive Systems (SE)",
+    "courseList": [
+      {
+        "name": "IT-Consulting - IT-Consulting (IN2079)",
+        "appointments": [
+          {
+            "day": "Monday",
+            "start": "08:30",
+            "end": "12:00",
+            "period": "from 23.10.2023 to 29.01.2024"
+          }
+        ],
+        "etcs": 3,
+        "theo": false,
+        "url": "https://campus.tum.de/tumonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/950696842",
+        "active": false
+      },
+      {
+        "name": "Strategic IT Management (CIT4230000)",
+        "appointments": [
+          {
+            "day": "Monday",
+            "start": "12:00",
+            "end": "14:00",
+            "period": "from 23.10.2023 to 05.02.2024"
+          }
+        ],
+        "etcs": 4,
+        "theo": false,
+        "url": "https://campus.tum.de/tumonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/950701783",
+        "active": false
+      }
+    ]
+  },
+  {
+    "name": "Formal Methods and their Applications (FMA)",
+    "courseList": [
+      {
+        "name": "Lambda Calculus (IN2358)",
+        "appointments": [
+          {
+            "day": "Monday",
+            "start": "16:15",
+            "end": "17:45",
+            "period": "from 23.10.2023 to 05.02.2024"
+          }
+        ],
+        "etcs": 5,
+        "theo": true,
+        "url": "https://campus.tum.de/tumonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/950698592",
+        "active": false
+      },
+      {
+        "name": "Semantics (IN2055)",
+        "appointments": [
+          {
+            "day": "Tuesday",
+            "start": "14:00",
+            "end": "16:00",
+            "period": "from 17.10.2023 to 06.02.2024"
+          },
+          {
+            "day": "Thursday",
+            "start": "12:15",
+            "end": "13:45",
+            "period": "from 17.10.2023 to 06.02.2024"
+          },
+          {
+            "day": "Monday",
+            "start": "08:30",
+            "end": "10:00",
+            "period": "from 17.10.2023 to 06.02.2024"
+          }
+        ],
+        "etcs": 8,
+        "theo": true,
+        "url": "https://campus.tum.de/tumonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/950696572",
+        "active": false
+      },
+      {
+        "name": "Advanced Concepts of Programming Languages (CIT3230000)",
+        "appointments": [
+          {
+            "day": "Wednesday",
+            "start": "12:00",
+            "end": "14:00",
+            "period": "from 18.10.2023 to 07.02.2024"
+          }
+        ],
+        "etcs": 6,
+        "theo": true,
+        "url": "https://campus.tum.de/tumonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/950701633",
+        "active": false
+      },
+      {
+        "name": "Program Optimization (IN2053)",
+        "appointments": [
+          {
+            "day": "Wednesday",
+            "start": "10:00",
+            "end": "12:00",
+            "period": "from 18.10.2023 to 07.02.2024"
+          },
+          {
+            "day": "Wednesday",
+            "start": "14:00",
+            "end": "16:00",
+            "period": "from 18.10.2023 to 07.02.2024"
+          },
+          {
+            "day": "Thursday",
+            "start": "10:00",
+            "end": "12:00",
+            "period": "from 18.10.2023 to 07.02.2024"
+          },
+          {
+            "day": "Tuesday",
+            "start": "14:00",
+            "end": "16:00",
+            "period": "from 18.10.2023 to 07.02.2024"
+          }
+        ],
+        "etcs": 8,
+        "theo": false,
+        "url": "https://campus.tum.de/tumonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/950695880?",
+        "active": false
+      }
+    ]
+  },
+  {
+    "name": "Machine Learning and Analytics (MLA)",
+    "courseList": [
+      {
+        "name": "Causality (IN2410)",
+        "appointments": [
+          {
+            "day": "Tuesday",
+            "start": "10:00",
+            "end": "12:00",
+            "period": "from 17.10.2023 to 06.02.2024"
+          },
+          {
+            "day": "Thursday",
+            "start": "10:00",
+            "end": "12:00",
+            "period": "from 17.10.2023 to 06.02.2024"
+          }
+        ],
+        "etcs": 8,
+        "theo": true,
+        "url": "https://campus.tum.de/tumonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/950724536",
+        "active": false
+      },
+      {
+        "name": "Data Mining and Knowledge Discovery (IN2030)",
+        "appointments": [
+          {
+            "day": "Monday",
+            "start": "08:30",
+            "end": "10:00",
+            "period": "from 23.10.2023 to 05.02.2024"
+          }
+        ],
+        "etcs": 3,
+        "theo": false,
+        "url": "https://campus.tum.de/tumonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/950696664",
+        "active": false
+      },
+      {
+        "name": "Introduction to Deep Learning (IN2346)",
+        "appointments": [
+          {
+            "day": "Tuesday",
+            "start": "14:00",
+            "end": "16:00",
+            "period": "on 17.10.2023"
+          },
+          {
+            "day": "Thursday",
+            "start": "10:00",
+            "end": "12:00",
+            "period": "on 17.10.2023"
+          }
+        ],
+        "etcs": 6,
+        "theo": false,
+        "url": "https://campus.tum.de/tumonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/950700567",
+        "active": false
+      }
+    ]
+  },
+  {
+    "name": "Computer Architecture, Computer Networks and Distributed Systems (RRV)",
+    "courseList": [
+      {
+        "name": "Advanced Computer Networking (IN2097)",
+        "appointments": [
+          {
+            "day": "Thursday",
+            "start": "14:00",
+            "end": "16:00",
+            "period": "from 19.10.2023 to 08.02.2024"
+          },
+          {
+            "day": "Tuesday",
+            "start": "16:00",
+            "end": "18:00",
+            "period": "from 19.10.2023 to 08.02.2024"
+          }
+        ],
+        "etcs": 5,
+        "theo": false,
+        "url": "https://campus.tum.de/tumonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/950696802?$ctx=design=ca2;header=max;lang=en",
+        "active": false
+      },
+      {
+        "name": "Advanced Computer Architecture (IN2076)",
+        "appointments": [
+          {
+            "day": "Tuesday",
+            "start": "12:30",
+            "end": "14:00",
+            "period": "from 17.10.2023 to 06.02.2024"
+          },
+          {
+            "day": "Friday",
+            "start": "12:00",
+            "end": "14:00",
+            "period": "from 17.10.2023 to 06.02.2024"
+          }
+        ],
+        "etcs": 5,
+        "theo": false,
+        "url": "https://campus.tum.de/tumonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/950696640?$ctx=design=ca2;header=max;lang=en",
+        "active": false
+      },
+      {
+        "name": "HW",
+        "appointments": [
+          {
+            "day": "Wednesday",
+            "start": "13:15",
+            "end": "14:45",
+            "period": "from 18.10.2023 to 07.02.2024"
+          },
+          {
+            "day": "Thursday",
+            "start": "08:30",
+            "end": "09:30",
+            "period": "from 18.10.2023 to 07.02.2024"
+          }
+        ],
+        "etcs": 5,
+        "theo": false,
+        "url": "https://campus.tum.de/tumonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/950699756?$ctx=design=ca2;header=max;lang=en",
+        "active": false
+      },
+      {
+        "name": "Network Coding (IN2315)",
+        "appointments": [
+          {
+            "day": "Tuesday",
+            "start": "10:00",
+            "end": "12:00",
+            "period": "from 17.10.2023 to 06.02.2024"
+          },
+          {
+            "day": "Wednesday",
+            "start": "10:00",
+            "end": "12:00",
+            "period": "from 17.10.2023 to 06.02.2024"
+          },
+          {
+            "day": "Wednesday",
+            "start": "12:00",
+            "end": "14:00",
+            "period": "from 17.10.2023 to 06.02.2024"
+          }
+        ],
+        "etcs": 6,
+        "theo": true,
+        "url": "https://campus.tum.de/tumonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/950698270?$ctx=design=ca2;header=max;lang=en",
+        "active": false
+      }
+    ]
+  },
+  { "name": "Robotics (ROB)", "courseList": [] },
+  {
+    "name": "Security and Privacy (SP)",
+    "courseList": [
+      {
+        "name": "Network Security (IN2101)",
+        "appointments": [
+          {
+            "day": "Tuesday",
+            "start": "14:00",
+            "end": "16:00",
+            "period": "from 17.10.2023 to 06.02.2024"
+          },
+          {
+            "day": "Monday",
+            "start": "12:00",
+            "end": "14:00",
+            "period": "from 17.10.2023 to 06.02.2024"
+          }
+        ],
+        "etcs": 5,
+        "theo": false,
+        "url": "https://campus.tum.de/tumonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/950696736?$ctx=design=ca2;header=max;lang=en",
+        "active": false
+      }
+    ]
+  },
+  {
+    "name": "Scientific Computing and High Performance Computing (HPC)",
+    "courseList": []
+  }
+]

@@ -13,11 +13,11 @@ function genTimeTable(start: number, end: number): string[] {
 
 const weekDays = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"];
 const pageContent = (
-  <div>
-    <div class="flex m-5 flex-row">
+  <div class="mt-12">
+    <div class="flex flex-row">
       {weekDays.map((dayName) => (
-        <div class="bg-green-300 mx-5">
-          {dayName}
+        <div class="mx-5">
+          <h2 class="bg-green-300 font-semibold text-xl">{dayName}</h2>
           {genTimeTable(8, 18).map((time) => {
             return (
               <div
@@ -30,8 +30,14 @@ const pageContent = (
           })}
         </div>
       ))}
+      <button
+        id="save-button"
+        class="h-min justify-self-center p-4 rounded-lg font-bold bg-blue-300"
+      >
+        SAVE JSON
+      </button>
     </div>
-    <div class="m-5">
+    <div class="mt-5">
       <div class="text-xl bg-slate-200 flex flex-row">
         <h2 class="">Theo: </h2>
         <p class="ml-4 " id="theo">
@@ -70,30 +76,13 @@ const pageContent = (
   </div>
 );
 
-export function renderCalendar(/*pageContent: string*/) {
-  const pageBody = <div class="flex justify-center">{pageContent}</div>;
-  const modal = (
-    <div class="flex justify-center">
-      <div
-        class="fixed  mt-24 p-5 hidden z-40 bg-white border-slate-700 border-2 rounded-lg"
-        id="modal"
-      ></div>
-    </div>
-  );
-  const page = `
-        <!doctype html>
-        <html>
-            <head>
-                <meta charset="UTF-8">
-                <meta name="viewport" content="width=device-width, initial-scale=1.0">
-                <script src="https://cdn.tailwindcss.com"></script>
-            </head>
-            <body>
-                ${modal}
-                ${pageBody}
-            </body>
-          <script type="module" src="./interactivity.js"></script>
-        </html>`;
+export const modal = (
+  <div class="flex justify-center">
+    <div
+      class="fixed  mt-24 p-5 hidden z-40 bg-white border-slate-700 border-2 rounded-lg"
+      id="modal"
+    ></div>
+  </div>
+);
 
-  return page;
-}
+export const pageBody = <div class="flex justify-center">{pageContent}</div>;

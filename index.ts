@@ -1,14 +1,24 @@
 const fs = require("fs");
 
-import { renderCalendar } from "./example";
+import { pageBody, modal } from "./calendarRenderer";
 
-/*
-fs.writeFile("/tmp/test", "Hey there!", function (err: any) {
-  if (err) {
-    return console.log(err);
-  }
-  console.log("The file was saved!");
-});*/
+function returnFullPage() {
+  const page = `
+        <!doctype html>
+        <html>
+            <head>
+                <meta charset="UTF-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <script src="https://cdn.tailwindcss.com"></script>
+            </head>
+            <body>
+                ${modal}
+                ${pageBody}
+            </body>
+          <script type="module" src="./interactivity.js"></script>
+        </html>`;
 
-// Or
-fs.writeFileSync("./index.html", renderCalendar());
+  return page;
+}
+
+fs.writeFileSync("./index.html", returnFullPage());

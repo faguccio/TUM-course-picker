@@ -19,7 +19,7 @@ const scrape = async (browser: any, url: string) => {
         .innerText.trim();
       return {
         day: day,
-        start: time[0].trim(),
+        start: time[0].split(",")[1].trim(),
         end: time[1].trim(),
         period: period,
       };
@@ -58,6 +58,7 @@ export interface Course {
   etcs: number;
   url: string;
   theo: boolean;
+  active: boolean;
   appointments: {
     day: string;
     start: string;
@@ -96,6 +97,7 @@ const resultData: Area[] = [];
         etcs: course.etcs,
         theo: !!course.theo,
         url: course.url,
+        active: false,
       });
     }
     resultData.push({ name: area.name, courseList: courses });

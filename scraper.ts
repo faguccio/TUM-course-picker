@@ -55,7 +55,7 @@ const scrape = async (browser: any, url: string) => {
 
 export interface Course {
   name: string;
-  etcs: number;
+  ects: number;
   url: string;
   theo: boolean;
   active: boolean;
@@ -94,7 +94,7 @@ const resultData: Area[] = [];
       const lecturesTime = await scrape(browser, course.url);
       courses.push({
         ...lecturesTime,
-        etcs: course.etcs,
+        ects: course.ects,
         theo: !!course.theo,
         url: course.url,
         active: false,

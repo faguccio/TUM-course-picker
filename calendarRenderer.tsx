@@ -11,30 +11,30 @@ function genTimeTable(start: number, end: number): string[] {
   return times;
 }
 
-function getAreaEtcs(areaName: string): number {
+function getAreaEcts(areaName: string): number {
   return data
     .filter((area: Area) => area.name == areaName)[0]
-    .courseList.map((course: Course) => course.etcs)
+    .courseList.map((course: Course) => course.ects)
     .reduce((a, b) => a + b);
 }
 
-function getTheoEtcs(): number {
+function getTheoEcts(): number {
   return data
     .map((area: Area) =>
       area.courseList
         .filter((course: Course) => course.theo && course.active)
-        .map((course: Course) => course.etcs)
+        .map((course: Course) => course.ects)
     )
     .flat()
     .reduce((a, b) => a + b);
 }
 
-function totalEtcs(): number {
+function totalEcts(): number {
   return data
     .map((area: Area) =>
       area.courseList
         .filter((course: Course) => course.active)
-        .map((course: Course) => course.etcs)
+        .map((course: Course) => course.ects)
     )
     .flat()
     .reduce((a, b) => a + b);
@@ -70,13 +70,13 @@ const pageContent = (
       <div class="text-xl bg-slate-200 flex flex-row">
         <h2 class="">Theo: </h2>
         <p class="ml-4 " id="theo">
-          {getTheoEtcs()}
+          {getTheoEcts()}
         </p>
       </div>
       <div class="text-xl bg-green-200 flex flex-row">
         <h2 class="">Total: </h2>
         <p class="ml-4 " id="total">
-          {totalEtcs()}
+          {totalEcts()}
         </p>
       </div>
       {data.map((area: Area) => {
@@ -86,7 +86,7 @@ const pageContent = (
             <div class="text-xl flex flex-row">
               <h2 class="">{area.name}: </h2>
               <p class="ml-4" id={area.name}>
-                {getAreaEtcs(area.name)}
+                {getAreaEcts(area.name)}
               </p>
             </div>
             {area.courseList.map((course: Course) => {

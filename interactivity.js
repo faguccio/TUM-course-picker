@@ -18,7 +18,7 @@ fetchData().then((data) => {
           const color = getRandomColor();
           course.active = !course.active;
           drawCalendar(course, color);
-          modifyETCS(area.name, course.etcs, course.theo, course.active);
+          modifyECTS(area.name, course.ects, course.theo, course.active);
         });
     });
   });
@@ -87,19 +87,19 @@ document.getElementById("modal").addEventListener("click", () => {
   document.getElementById("modal").classList.add("hidden");
 });
 
-function modifyETCS(area, etcs, theo, active) {
-  console.log(area, etcs, theo, active);
+function modifyECTS(area, ects, theo, active) {
+  console.log(area, ects, theo, active);
 
   const sign = active ? 1 : -1;
-  const areaETCS = document.getElementById(area);
-  areaETCS.textContent = Number(areaETCS.textContent) + etcs * sign;
+  const areaECTS = document.getElementById(area);
+  areaECTS.textContent = Number(areaECTS.textContent) + ects * sign;
 
   const total = document.getElementById("total");
-  total.textContent = Number(total.textContent) + etcs * sign;
+  total.textContent = Number(total.textContent) + ects * sign;
 
   if (theo) {
-    const theoETCS = document.getElementById("theo");
-    theoETCS.textContent = Number(theoETCS.textContent) + etcs * sign;
+    const theoECTS = document.getElementById("theo");
+    theoECTS.textContent = Number(theoECTS.textContent) + ects * sign;
   }
 }
 

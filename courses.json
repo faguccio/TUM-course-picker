@@ -5,7 +5,7 @@
       "courses": [
         {
           "url": "https://campus.tum.de/tumonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/950696698",
-          "etcs": 8
+          "ects": 8
         }
       ]
     },
@@ -15,7 +15,7 @@
       "courses": [
         {
           "url": "https://campus.tum.de/tumonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/950699843",
-          "etcs": 5
+          "ects": 5
         }
       ]
     },
@@ -25,11 +25,11 @@
       "courses": [
         {
           "url": "https://campus.tum.de/tumonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/950696842",
-          "etcs": 3
+          "ects": 3
         },
         {
           "url": "https://campus.tum.de/tumonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/950701783",
-          "etcs": 4
+          "ects": 4
         }
       ]
     },
@@ -38,22 +38,22 @@
       "courses": [
         {
           "url": "https://campus.tum.de/tumonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/950698592",
-          "etcs": 5,
+          "ects": 5,
           "theo": true
         },
         {
           "url": "https://campus.tum.de/tumonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/950696572",
-          "etcs": 8,
+          "ects": 8,
           "theo": true
         },
         {
           "url": "https://campus.tum.de/tumonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/950701633",
-          "etcs": 6,
+          "ects": 6,
           "theo": true
         },
         {
           "url": "https://campus.tum.de/tumonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/950695880?",
-          "etcs": 8
+          "ects": 8
         }
       ]
     },
@@ -62,16 +62,16 @@
       "courses": [
         {
           "url": "https://campus.tum.de/tumonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/950724536",
-          "etcs": 8,
+          "ects": 8,
           "theo": true
         },
         {
           "url": "https://campus.tum.de/tumonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/950696664",
-          "etcs": 3
+          "ects": 3
         },
         {
           "url": "https://campus.tum.de/tumonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/950700567",
-          "etcs": 6
+          "ects": 6
         }
       ]
     },
@@ -80,19 +80,19 @@
       "courses": [
         {
           "url": "https://campus.tum.de/tumonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/950696802?$ctx=design=ca2;header=max;lang=en",
-          "etcs": 5
+          "ects": 5
         },
         {
           "url": "https://campus.tum.de/tumonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/950696640?$ctx=design=ca2;header=max;lang=en",
-          "etcs": 5
+          "ects": 5
         },
         {
           "url": "https://campus.tum.de/tumonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/950699756?$ctx=design=ca2;header=max;lang=en",
-          "etcs": 5
+          "ects": 5
         },
         {
           "url": "https://campus.tum.de/tumonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/950698270?$ctx=design=ca2;header=max;lang=en",
-          "etcs": 6,
+          "ects": 6,
           "theo": true
         }
       ]
@@ -103,7 +103,7 @@
       "courses": [
         {
           "url": "https://campus.tum.de/tumonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/950696736?$ctx=design=ca2;header=max;lang=en",
-          "etcs": 5
+          "ects": 5
         }
       ]
     },

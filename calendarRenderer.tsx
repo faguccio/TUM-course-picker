@@ -1,7 +1,7 @@
 import * as elements from "typed-html";
 import { Course, Area } from "./scraper";
 
-const data = require("./courses-info.json");
+const data = require("./courses-info.json") as Area[];
 
 function genTimeTable(start: number, end: number): string[] {
   let times: string[] = [];
@@ -9,6 +9,35 @@ function genTimeTable(start: number, end: number): string[] {
     times.push(`${h.toString()}:00`);
   }
   return times;
+}
+
+function getAreaEtcs(areaName: string): number {
+  return data
+    .filter((area: Area) => area.name == areaName)[0]
+    .courseList.map((course: Course) => course.etcs)
+    .reduce((a, b) => a + b);
+}
+
+function getTheoEtcs(): number {
+  return data
+    .map((area: Area) =>
+      area.courseList
+        .filter((course: Course) => course.theo && course.active)
+        .map((course: Course) => course.etcs)
+    )
+    .flat()
+    .reduce((a, b) => a + b);
+}
+
+function totalEtcs(): number {
+  return data
+    .map((area: Area) =>
+      area.courseList
+        .filter((course: Course) => course.active)
+        .map((course: Course) => course.etcs)
+    )
+    .flat()
+    .reduce((a, b) => a + b);
 }
 
 const weekDays = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"];
@@ -41,13 +70,13 @@ const pageContent = (
       <div class="text-xl bg-slate-200 flex flex-row">
         <h2 class="">Theo: </h2>
         <p class="ml-4 " id="theo">
-          0
+          {getTheoEtcs()}
         </p>
       </div>
       <div class="text-xl bg-green-200 flex flex-row">
         <h2 class="">Total: </h2>
         <p class="ml-4 " id="total">
-          0
+          {totalEtcs()}
         </p>
       </div>
       {data.map((area: Area) => {
@@ -57,13 +86,17 @@ const pageContent = (
             <div class="text-xl flex flex-row">
               <h2 class="">{area.name}: </h2>
               <p class="ml-4" id={area.name}>
-                0
+                {getAreaEtcs(area.name)}
               </p>
             </div>
             {area.courseList.map((course: Course) => {
               return (
                 <div class="flex flex-row">
-                  <input type="checkbox" id={course.name + "-checkbox"}></input>
+                  <input
+                    type="checkbox"
+                    id={course.name + "-checkbox"}
+                    checked={course.active}
+                  ></input>
                   <p class="ml-5 ">{course.name}</p>
                   {course.theo ? <p class="ml-8 font-bold">THEO</p> : null}
                 </div>

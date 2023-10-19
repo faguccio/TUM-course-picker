@@ -4,6 +4,10 @@ async function fetchData() {
   return data;
 }
 
+function getRandomColor() {
+  return "#" + (0x1000000 + Math.random() * 0xffffff).toString(16).substr(1, 6);
+}
+
 fetchData().then((data) => {
   data.map((area) => {
     area.courseList.map((course) => {
@@ -11,9 +15,7 @@ fetchData().then((data) => {
         .getElementById(course.name + "-checkbox")
         .addEventListener("click", (e) => {
           //console.log(course.name);
-          const color =
-            "#" +
-            (0x1000000 + Math.random() * 0xffffff).toString(16).substr(1, 6);
+          const color = getRandomColor();
           course.active = !course.active;
           drawCalendar(course, color);
           modifyETCS(area.name, course.etcs, course.theo, course.active);
@@ -24,6 +26,12 @@ fetchData().then((data) => {
   document.getElementById("save-button").addEventListener("click", () => {
     console.log("SAVE");
     saveText(JSON.stringify(data), "courses-info.json");
+  });
+
+  data.map((area) => {
+    area.courseList.map((course) => {
+      drawCalendar(course, getRandomColor());
+    });
   });
 });
 
